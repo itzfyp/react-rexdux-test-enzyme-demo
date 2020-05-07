@@ -1,0 +1,24 @@
+$primary-color : #7676ff;
+
+.todo-input {
+    padding: 1em;
+    form {
+        display: flex;
+        textarea {
+            font-size: 2rem;
+            flex: 1 1 90%;
+            padding: 0.5em;
+            max-height: 60px;
+            border-color: rgba(0, 0, 0, 0.2);
+            border-right: none;
+            box-shadow: -1px -1px 4px 0 rgba(136, 127, 127, 0.2);
+        }
+        button {
+            padding: 1em;
+            border: 1px solid transparent;
+            box-shadow: 1px -1px 4px 0 rgba(136, 127, 127, 0.2);
+            background-color: $primary-color;
+        }
+    }
+
+}

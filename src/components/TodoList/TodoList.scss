@@ -1,0 +1,28 @@
+$danger-color : #ff6c0a;
+$default-color : #ffffff;
+.todo-list {
+
+    ul {
+        max-height: 300px;
+        overflow-y: auto;
+        list-style-type: none;
+        padding: 1em;
+        li {
+            font-size: 1rem;
+            padding: 1em;
+            margin: 5px 0;
+            background: $default-color;
+            box-shadow: 1px 1px 4px 0 rgba(136, 127, 127, 0.2);
+            display: flex;
+            justify-content: space-between;
+
+            button {
+                color: $default-color;
+                padding: 0.3em;
+                border: none;
+                box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.2);
+                background: $danger-color;
+            }
+        }
+    }
+}
